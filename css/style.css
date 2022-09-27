@@ -1,0 +1,158 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 36px;
+    color:red;
+    text-align: center;
+    font-weight: 900;
+}
+
+body{
+    margin:0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    font-style: italic;
+    font-size:16px;
+}
+
+h2{
+    font-size: 24px;
+    color: grey;
+    
+}
+
+nav li{
+    color: green;
+    font-weight: bold;
+    display:inline;
+}
+
+nav ul{
+    list-style-type:none;
+    margin:0px;
+    padding:14px 0px;
+}
+
+img{
+    height: 150px;
+    margin: auto;
+    display: block;
+}
+
+
+
+button{
+    background-color: red;
+    border-radius: 8px;
+    height: 30px;
+    color:white;
+    cursor:pointer;
+}
+ nav a{
+    text-decoration: none;
+    color:white;
+    padding:0px 50px;
+}
+
+nav{
+    display:block;
+    text-align: center;
+    background-color: red;
+}
+
+.producto{
+    background-color: #eee;
+    width:280px;
+    display:inline-block;
+    padding: 15px;
+    border-radius: 8px;
+    margin:10px;
+}
+.producto span{
+    color:red;
+    font-weight: 600;
+}
+
+main{
+    margin:20px 10%;
+}
+.video{
+    background-color: #eee;
+    width:100%;
+    border-radius: 8px;
+    padding:18px;
+}
+
+form{
+   width:600px;
+   margin:auto;
+   display:block;
+   border: 1px solid rgb(212, 204, 204) ;
+   padding:15px;
+   border-radius: 8px;
+}
+
+input:focus, textarea:focus, select:focus{
+    background-color: red;
+    display:block;
+    }
+
+form input[type=text], form input[type=email],form input[type=tel],form input[type=date],form select,form textarea{
+    border: 1px solid red;
+    border-radius: 8px;
+    display:block;
+    width:100%;
+    height: 22px;
+}
+
+form textarea{
+    height: 100px;
+}
+
+.form-div{
+    margin:10px 0px;
+}
+
+.submit-btn-div{
+    width:100px;
+    margin: auto;
+    border: white;
+}
+
+.submit-btn{
+    width:100px;
+    height: 40px;
+}
+.submit-btn:hover{
+        background-color: white;
+        color:red;
+        cursor:pointer;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer i{
+    font-size: 35px;
+    border:1px solid;
+    height: 48px;
+    width: 58px;
+    text-align: center;
+    padding: 10px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+    color:red;
+}
+
+footer{
+    display: grid;
+}
+.redes{
+    margin:auto;
+    padding: 80px;
+}
